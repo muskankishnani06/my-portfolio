@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio </title>
+    <link rel="shortcut icon" href="./assets/picture.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <nav class="navbar navbar-expand-lg p-3 rounded-4">
+            <div class="container">
+                <a class="navbar-brand fst-italic fs-3 fw-bold" href="#" data-aos="flip-right">Muskan</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-theme-toggle" id="themeToggleBtn" data-aos="flip-left">☀️ Light</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section id="home">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row mt-5 ">
+                    <div class="col-12 col-md-6" data-aos="fade-right">
+                        <div class="display-3 mt-4 fw-bold fst-italic">
+                            Hello I'm <span class="name-color">Muskan</span>
+                        </div>
+                        <h3 class="name-color fw-bold">Fullstake Web Developer</h3>
+                        <p>I develop full-stack applications using modern JavaScript
+                            frameworks, scalable backend systems, and optimized databases.
+                            Focused on performance, security, and clean architecture.</p>
+                        <div>
+                            <a href="#projects"><button
+                                    class="btn btn-info rounded-pill text-white fw-bold shadow-lg">View my
+                                    Work</button></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-3 " data-aos="fade-left">
+                        <img src="./assets/picture.png" alt="Profile-pic" class="img-fluid profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container mt-5">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold">
+                        About
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve"
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+
+                <div class="row d-flex gap-4">
+                    <div class=" col-12 col-md-4" data-aos="flip-left">
+                        <div
+                            class="card about-card d-flex flex-column justify-content-center align-items-center mt-5 rounded-3">
+                            <img src="./assets/profilepic.png"
+                                class="card-img-top img-fluid rounded-circle about-image mt-4" alt="About-img">
+                            <div class="card-body text-center">
+                                <h2 class="card-title">Muskan Kishnani</h2>
+                                <h4 class="card-text about-designation">Fullstack developer</h4>
+                                <hr>
+                                <div class="experience d-flex justify-content-between gap-4">
+                                    <div class="text-secondary">
+                                        <h2>100+</h2>
+                                        <h5>Projects</h5>
+                                    </div>
+                                    <div class="text-secondary">
+                                        <h2>3+</h2>
+                                        <h5>years</h5>
+                                    </div>
+                                    <div class="text-secondary">
+                                        <h2>10+</h2>
+                                        <h5>Awards</h5>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="button d-flex flex-column gap-2">
+                                    <a href="#" class="btn btn-outline-info text-white w-100 rounded-4"><i
+                                            class="fa-solid fa-download"></i>Download Resume</a>
+                                    <a href="#" class="btn btn-outline-info text-white w-100 rounded-4"><i
+                                            class="fa-solid fa-address-book"></i>Contact</a>
+                                </div>
+                                <hr>
+                                <div class="social-media fs-1">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i class="fa-brands fa-github"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7" data-aos="flip-right">
+                        <div class="about-info mt-5 fs-5 fst-italic">
+                            I’m Muskan Kishnani, a passionate Software Engineer and
+                            Full-Stack Developer with a strong focus on building scalable,
+                            high-performance web applications. I enjoy transforming complex
+                            problems into elegant, user-friendly solutions using modern
+                            technologies.
+                        </div>
+                        <div class="about-info mt-3 fs-5 fst-italic">
+                            With hands-on experience in JavaScript, React, Node.js, and backend systems, I specialize in
+                            developing end-to-end applications that are efficient, secure, and maintainable. I believe
+                            clean code, thoughtful architecture, and continuous learning are the foundations of great
+                            software.
+                        </div>
+
+
+                        <div class="about-text-card">
+                            <div class="row d-flex">
+                                <div class="col-12 col-md-6">
+                                    <div class="card about-info-card mt-5 rounded-4">
+                                        <div class="card-body">
+                                            <h4 class="card-title"><i class="fa-solid fa-phone"></i>Phone</h4>
+                                            <p class="card-text">+91 953736643</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="card about-info-card mt-5 rounded-4">
+                                        <div class="card-body">
+                                            <h4 class="card-title"><i class="fa-solid fa-envelope"></i>E-mail</h4>
+                                            <p class="card-text">muskankishnani41@gmail.com</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-text-card">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="card about-info-card mt-5 rounded-4">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i class="fa-solid fa-briefcase"></i>Designation
+                                                </h4>
+                                                <p class="card-text">Fullstack Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="card about-info-card mt-5 rounded-4">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i
+                                                        class="fa-solid fa-business-time"></i>Experience</h4>
+                                                <p class="card-text">3+ Years</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-text-card">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="card about-info-card mt-5 rounded-4">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i
+                                                        class="fa-solid fa-calendar-check"></i>Availability</h4>
+                                                <p class="card-text">Open to Work </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="card about-info-card mt-5 rounded-4">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i class="fa-solid fa-location-dot"></i>Location
+                                                </h4>
+                                                <p class="card-text">Based on india</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="container mt-5">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold ">
+                        My Skills
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve" class="img-fluid"
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+
+                <div class="row mt-4 d-flex justify-content-center align-items-center gap-5 mt-5" data-aos="flip-up">
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/html-5-svgrepo-com.svg" class="card-img-top img-fluid mt-3"
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">HTML 5</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2 ">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/css-fill-svgrepo-com.svg" class="card-img-top img-fluid mt-3 "
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">CSS 3</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/bootstrap-fill-svgrepo-com.svg"
+                                class="card-img-top img-fluid mt-3 " alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">Bootstrap 5</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/js-square-svgrepo-com.svg" class="card-img-top img-fluid mt-3"
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">Java Script</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/react-svgrepo-com.svg" class="card-img-top img-fluid mt-3 "
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">React 19</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 d-flex justify-content-center align-items-center gap-5" data-aos="flip-down">
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/tailwind-svgrepo-com.svg" class="card-img-top img-fluid mt-3 "
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">Tailwind css</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/next-16-svgrepo-com.svg" class="card-img-top img-fluid mt-3"
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">Next JS</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/node-js-svgrepo-com.svg" class="card-img-top img-fluid mt-3 "
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">Node JS</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/php-svgrepo-com.svg" class="card-img-top img-fluid mt-3"
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title fst-italic">PhP</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-2">
+                        <div
+                            class="card skill-card border border-3 border-bottom-0 border-info d-flex justify-content-center align-items-center">
+                            <img src="./assets/Skills/api-svgrepo-com.svg" class="card-img-top img-fluid mt-3"
+                                alt="html">
+                            <div class="card-body">
+                                <h3 class="card-title">REST API</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container mt-5">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold ">
+                        Projects
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve" class="img-fluid"
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+
+                <div class="row">
+                    <ul class="nav nav-tabs d-flex justify-content-center align-items-center gap-3" id="myTab"
+                        role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Frontend</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Backend</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Fullstack</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <div class="row mt-5 d-flex justify-content-center align-items-center gap-4">
+                                <div class="col-12 col-md-5">
+                                    <div class="card project-card">
+                                        <img src="./assets/Screenshot 2026-04-12 184843.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Netflix</h5>
+                                            <p class="card-text">Netflix is a responsive web
+                                                    interface developed using HTML and CSS, designed to replicate the
+                                                    modern look and feel of a popular streaming platform. It showcases a
+                                                    visually appealing layout with dynamic movie banners, categorized
+                                                    content sections, and a user-friendly landing page.</p>
+                                            <a href="https://github.com/muskankishnani06/Netflix-Project"
+                                                    class="btn btn-outline-info">Github</a>
+                                                <a href="https://bright-concha-c79107.netlify.app/"
+                                                    class="btn btn-outline-info">Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-5">
+                                    <div class="card project-card">
+                                        <img src="./assets/amazon.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Amazon prime</h5>
+                                            <p class="card-text">PrimeStream is a
+                                                    modern web interface built using HTML and CSS, designed to replicate
+                                                    the premium streaming experience of a popular OTT platform. The
+                                                    layout with a structured
+                                                    navigation bar, engaging hero section, and neatly organized content
+                                                    grids showcasing movies and TV shows.</p>
+                                            <a href="https://github.com/muskankishnani06/Amazon-Prime"
+                                                    class="btn btn-outline-info">Github</a>
+                                                <a href="https://prime-page.netlify.app/"
+                                                    class="btn btn-outline-info">Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row d-flex justify-content-center align-items-center gap-4 mt-5">
+                                <div class="col-12 col-md-5">
+                                    <div class="card project-card">
+                                        <img src="./assets/voyagex.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                             <h5 class="card-title">Voyagex</h5>
+                                        <p class="card-text">VoyageX (Travel Website Banner UI) is a visually engaging
+                                            and fully
+                                            responsive web banner designed using HTML, CSS, and media queries. The
+                                            project
+                                            features a modern hero section with a high-quality background image, elegant
+                                            typography, and a clear call-to-action button.</p>
+                                        <a href="https://github.com/muskankishnani06/Max-width-project"
+                                            class="btn btn-outline-info">Github</a>
+                                        <a href="https://max-width-voyagex.netlify.app/"
+                                            class="btn btn-outline-info">Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-5">
+                                    <div class="card project-card">
+                                        <img src="./assets/project-3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                           <h5 class="card-title">Swiggy </h5>
+                                        <p class="card-text">FoodieHub is a responsive web interface developed
+                                            using HTML and CSS, designed to replicate the modern food delivery and
+                                            dining
+                                            experience. The project features a clean navigation bar with location setup
+                                            and
+                                            search functionality,with an attractive banner section highlighting dining
+                                            options.</p>
+                                        <a href="https://github.com/muskankishnani06/Swiggy-project" class="btn btn-outline-info">Github</a>
+                                        <a href="https://project-swiggy1.netlify.app/" class="btn btn-outline-info">Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">Backend</div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">Fullstack</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold">
+                        Testimonials
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve" class="img-fluid "
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (1).jpg"
+                                                    class=" testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info">Sarah Johnson</h5>
+                                                    <p class="card-text text-center text-secondary">Muskan delivered our
+                                                        project with
+                                                        impressive
+                                                        quality and ahead of schedule. Her attention to
+                                                        detail and clear communication made the process
+                                                        seamless.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (2).jpg"
+                                                    class="testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info"> Michael Lee</h5>
+                                                    <p class="card-text text-center text-secondary">Working with Muskan
+                                                        was a fantastic
+                                                        experience. She
+                                                        understood our requirements perfectly and
+                                                        transformed them into a fast, modern web app.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (3).jpg"
+                                                    class="testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info"> John Barber</h5>
+                                                    <p class="card-text text-center text-secondary">Working with Muskan
+                                                        was a fantastic
+                                                        experience. She
+                                                        understood our requirements perfectly and
+                                                        transformed them into a fast, modern web app.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (4).jpg"
+                                                    class="testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info"> Emily Davis</h5>
+                                                    <p class="card-text text-center text-secondary">I highly recommend
+                                                        Muskan for any development work.
+                                                        She’s creative, quick to adapt, and always
+                                                        delivers top-notch results.Working with Muskan
+                                                        was a fantastic
+                                                        experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (5).jpg"
+                                                    class="testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info"> Peter Davis</h5>
+                                                    <p class="card-text text-center text-secondary">I highly recommend
+                                                        Muskan for any development work.
+                                                        She’s creative, quick to adapt, and always
+                                                        delivers top-notch results.Working with Muskan
+                                                        was a fantastic
+                                                        experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div
+                                                class="card testimonials-card  d-flex justify-content-center align-items-center border border-3 border-info rounded-4">
+                                                <img src="./assets/testimonials (6).jpg"
+                                                    class="testimonials-image img-fluid mt-3 border border-info border-5"
+                                                    alt="...">
+                                                <div class="card-body text-center">
+                                                    <h5 class="card-title text-info"> Lara Jean</h5>
+                                                    <p class="card-text text-center text-secondary">I highly recommend
+                                                        Muskan for any development work.
+                                                        She’s creative, quick to adapt, and always
+                                                        delivers top-notch results.Working with Muskan
+                                                        was a fantastic
+                                                        experience.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Services">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold">
+                        Services
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve" class="img-fluid "
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+                <div class="row mt-5 g-4" data-aos="flip-up">
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-solid fa-code display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Frontend Development</h5>
+                                <p class="card-text">Crafting visually engaging and responsive web interfaces
+                                    using modern frameworks like React, Vue, and Angular.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-solid fa-server display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Backend Development</h5>
+                                <p class="card-text"> Building robust, secure, and scalable server-side
+                                    applications and REST/GraphQL APIs with Node.js, Express, or
+                                    Django.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-solid fa-code-compare display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Full Stack Solutions</h5>
+                                <p class="card-text"> End-to-end development solutions combining frontend and
+                                    backend technologies for dynamic, real-world web
+                                    applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 g-4" data-aos="flip-down">
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-brands fa-docker display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">DevOps & Deployment</h5>
+                                <p class="card-text"> Automating deployments with Docker, GitHub Actions, and
+                                    deploying on AWS, Vercel, or DigitalOcean for scalable
+                                    infrastructure..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-solid fa-cart-arrow-down display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">E-commerce Development</h5>
+                                <p class="card-text"> Creating modern, feature-rich online stores with payment
+                                    gateway integrations like Stripe, Razorpay, and PayPal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div
+                            class="card Services-card d-flex justify-content-center align-items-center text-center p-3 gap-3">
+                            <i class="fa-solid fa-mobile display-4 mt-4 text-info"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile App Development</h5>
+                                <p class="card-text"> Developing mobile apps for Android and iOS using
+                                    cross-platform frameworks like React Native or Flutter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <h1 class="section-heading text-center mt-5 fw-bold">
+                        Contact
+                    </h1>
+                    <img src="./assets/curlywaves_primary.svg" alt="curve" class="img-fluid "
+                        style="width:300px; height:50px; display: block; margin: 0 auto; opacity: 0.6;">
+                </div>
+
+                <div class="row d-flex justify-content-center align-items-center mt-5">
+                    <div class="col-12 col-md-5" data-aos="fade-down-right">
+                        <div
+                            class="card mb-5 border border-info border-2 rounded-4 contact-card d-flex flex-column gap-5 p-5 ">
+                            <div class="card-body contact-card-body rounded-4">
+                                <h4 class="card-title">
+                                    <i class="fa-solid fa-map-pin text-info"></i>
+                                    <span class="fw-bold"> Address</span>
+                                </h4>
+                                <p class="card-text fst-italic">
+                                    269, Chandroday Park, Behind Sahjanand School,
+                                    Akwada, Bhavnagar, Gujarat – 364002
+                                </p>
+                            </div>
+                            <div class="card-body contact-card-body rounded-4">
+                                <h4 class="card-title">
+                                    <i class="fa-solid fa-envelope text-info"></i>
+                                    <span class="fw-bold"> Email</span>
+                                </h4>
+                                <p class="card-text fst-italic">muskankishnani41@gmail.com</p>
+                            </div>
+                            <div class="card-body contact-card-body rounded-4 mb-3">
+                                <h4 class="card-title">
+                                    <i class="fa-solid fa-phone text-info"></i>
+                                    <span class="fw-bold">Call</span>
+                                </h4>
+                                <p class="card-text fst-italic">9537366436</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-5" data-aos="fade-down-left">
+                        <div class="card contact-card p-2 mb-5">
+                            <div class="card-body contact-form-body">
+                                <h5 class="card-title">Send Message</h5>
+                                <p class="card-text">
+                                <form action="">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="name" placeholder="Password" />
+                                        <label for="name">Name</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com" />
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="contact" placeholder="Contact" />
+                                        <label for="contact">Contact</label>
+                                    </div>
+
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Message</label>
+                                    </div>
+                                    <div class="d-grid">
+                                        <div class="btn btn-outline-info mt-4">
+                                            Send Message
+                                        </div>
+                                    </div>
+                                </form>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="theme.js"></script>
+</body>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+        once: true,
+    });
+
+</script>
+<script>
+    const themeBtn = document.getElementById('themeToggleBtn');
+    const html = document.documentElement;
+
+    // Load saved theme on page load
+    const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
+    html.setAttribute('data-theme', savedTheme);
+    themeBtn.textContent = savedTheme === 'dark' ? '☀️ Light' : '🌙 Dark';
+
+    // Toggle on click
+    themeBtn.addEventListener('click', () => {
+        const current = html.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('portfolio-theme', next);
+        themeBtn.textContent = next === 'dark' ? '☀️ Light' : '🌙 Dark';
+    });
+</script>
+
+
+
+</body>
+
+</html>
