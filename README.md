@@ -156,9 +156,6 @@ All libraries are loaded via CDN — no installation needed.
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
