@@ -154,15 +154,5 @@ All libraries are loaded via CDN — no installation needed.
 | 📞 Phone | +91 9537366436 |
 | 📍 Location | Bhavnagar, Gujarat, India |
 
----
 
-
----
-
-<div align="center">
-
-Made with ❤️ by **Muskan Kishnani**
-
-⭐ If you like this portfolio, consider giving it a star!
-
-</div>
+Made by **Muskan Kishnani**
